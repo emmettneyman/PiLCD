@@ -4,7 +4,7 @@ import Adafruit_CharLCD as LCD
 import sys
 import time
 
-print sys.argv[2]
+#print sys.argv[2]
 
 lcd_columns = 16
 

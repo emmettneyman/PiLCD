@@ -18,7 +18,7 @@ def my_form_post():
 		return render_template("index.html")
 	if 'program' in request.form:
 		text = request.form['program']
-		os.system("pkill -f write_to_screen.py")
+		os.system("sudo pkill -f write_to_screen.py")
 		os.system("python write_to_screen.py \"" + text + "\" " + color + " &")
 		return render_template("index.html")
 
