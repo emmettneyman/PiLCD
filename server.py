@@ -4,7 +4,7 @@ from flask import render_template
 import os
 
 app = Flask(__name__)
-color = ""
+color = "white"
 @app.route('/')
 def my_form():
 	return render_template("index.html")
@@ -14,7 +14,6 @@ def my_form_post():
 	if 'color' in request.form:
 		global color
 		color = request.form['color']
-		print color
 		return render_template("index.html")
 	if 'program' in request.form:
 		text = request.form['program']
