@@ -1,22 +1,96 @@
 <!DOCTYPE html>
 <html lange="en">
-<body> 
+<style type="text/css">
+  html {
+
+    background-color: #f6f6f6;
+	text-align: center;
+	}
+</style>
+<title>
+Update LCD Screen
+</title>
+
+<body style="font-family:Georgia;" > 
+<style type="text/css">
+h1 {
+	text-align: center;
+	background-color: #f6f6f6;
+}
+</style>
+<h1 class="title" style="font-family:Georgia">
+Update Your LCD Screen
+</h1>
+	<style type="text/css">
+	div.container {
+		background-color: #ffffff;
+
+		margin-top: 10px;
+		border-style: solid;
+		border-width: 1px;
+		padding-bottom: 14px;
+	}
+	input.input-text {
+		font-size: 16px;
+        height: auto;
+        margin-bottom: 15px;
+        padding: 7px 9px;
+    
+	}
+	button.buttons {
+	font-size: 16px;
+        height: auto;
+        margin-bottom: 15px;
+        padding: 7px 9px;
+    	background-color: #eeeeee;
+	}
+  </style>
+<div class="container">
 	<form action="." method="POST">
 	<h3>What color do you want the text to be?</h3>
-	  	<input type="radio" name="color" value="red"> Red<br>
-  		<input type="radio" name="color" value="blue"> Blue<br>
-  		<input type="radio" name="color" value="green"> Green<br>
-		<input type="radio" name="color" value="yellow"> Yellow<br>
-  		<input type="radio" name="color" value="cyan"> Cyan<br>
-		<input type="radio" name="color" value="magenta"> Magenta<br>
-  		<input type="radio" name="color" value="white"> White<br>
-		<input type="submit" name="color-form" value="Enter">	
-	</form>
+
+	<div class="inputs">
+	<table align="center" style="margin: 0px auto;">
+<tr>
+    <td><input type="radio" name="color" value="red" style="vertical-align: middle; margin: 0px"></td>
+    <td>Red</td>
+</tr>
+<tr>
+    <td><input type="radio" name="color" value="blue" style="vertical-align: middle; margin: 0px"></td>
+    <td>Blue</td>
+</tr>
+<tr>
+    <td><input type="radio" name="color" value="green" style="vertical-align: middle; margin: 0px"></td>
+    <td>Green</td>
+</tr>
+<tr>
+    <td><input type="radio" name="color" value="yellow" style="vertical-align: middle; margin: 0px"></td>
+    <td>Yellow</td>
+</tr>
+<tr>
+    <td><input type="radio" name="color" value="cyan" style="vertical-align: middle; margin: 0px"></td>
+    <td>Cyan</td>
+</tr>
+<tr>
+    <td><input type="radio" name="color" value="magenta" style="vertical-align: middle; margin: 0px"></td>
+    <td>Magenta</td>
+</tr>
+<tr>
+    <td><input type="radio" name="color" value="white" style="vertical-align: middle; margin: 0px"></td>
+    <td>White</td>
+</tr>
+</table>
+        <button type="submit" class="buttons" name="color-form" value="Enter">Submit</button>
+		<!--input type="submit" name="color-form" value="Enter"-->
+	</div>	
+	</form style="background-color: gray">
 	<h3>Enter the text you want displayed</h3>
 	</form>
 	<form action="." method="POST">
-		<input type="text" name="program">
-		<input type="submit" name="program-form" value="Enter">
+		<input type="text" class="input-text" name="program">
+		<button type="submit" class="buttons" name="program-form" value="Enter">Submit</button>
 	</form>
+</div>
 </body>
+
 </html>
