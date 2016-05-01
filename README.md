@@ -11,3 +11,10 @@ We used a Raspberry Pi with an Adafruit Character LCD Plate on the hardware side
 A natural next step for our project would be to collect feedback from people who view messages on the screen. The Adafruit LCD screen has several buttons built in that could be used to send feedback to the owner of the screen. For example, if a professor has the screen displaying the message "Out of the office til 4. Press 'Select' to let me know I missed you", then he could keep track of how many visitors he missed. 
 
 Adafruit LCD Library: https://github.com/adafruit/Adafruit_Python_CharLCD
+
+Video Demo: https://www.youtube.com/watch?v=xQftUTxO4fc
+
+![alt tag](https://raw.githubusercontent.com/emmettneyman/PiLCD/master/PiBlue.jpg)
+![alt tag](https://raw.githubusercontent.com/emmettneyman/PiLCD/master/PiGreen.jpg)
+![alt tag](https://raw.githubusercontent.com/emmettneyman/PiLCD/master/PiMagenta.jpg)
+
